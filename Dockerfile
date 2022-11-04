@@ -1,4 +1,4 @@
-FROM TechManagementBot/python:latest
+FROM techmanagementbot/python:latest
 
 WORKDIR /wbb
 RUN chmod 777 /wbb
