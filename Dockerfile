@@ -1,4 +1,4 @@
-FROM techmanagementbot/python:latest
+FROM python:3.10-slim-buster
 
 WORKDIR /wbb
 RUN chmod 777 /wbb
